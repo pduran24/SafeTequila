@@ -37,7 +37,7 @@ if st.button("Consultar al Oráculo"):
     pred = modelo.predecir(temperatura, niebla_binaria, hora)
     if pred == 1:
         st.error("⚠️ Tequila se encuentra perdida!!")
-        st.image("images\Tequila.jpeg")
+        st.image("images/Tequila.jpeg")
     else:
         st.success("El camino es seguro, Tequila puede avanzar sin miedo.")
-        st.image("images\Tequila.jpeg")
+        st.image("images/Tequila.jpeg")
