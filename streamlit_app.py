@@ -5,7 +5,7 @@ from oraculo.modelo import ModeloOraculo
 
 
 st.image ("https://imgproxy.attic.sh/insecure/f:png/plain/https://attic.sh/d7soo271ta5vqrjszhp9tfn30y89")
-st.title(" SAVE TEQUILA")
+st.title(" SAFE TEQUILA")
 st.markdown("Consultar el estado de Tequila y su probabilidad de estar perdida")
 
 
