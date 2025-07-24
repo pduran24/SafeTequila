@@ -5,7 +5,7 @@ from oraculo.modelo import ModeloOraculo
 
 
 st.image ("https://imgproxy.attic.sh/insecure/f:png/plain/https://attic.sh/d7soo271ta5vqrjszhp9tfn30y89")
-st.title(" TEQUILA ")
+st.title(" SAFE TEQUILA ")
 st.markdown("Consultar el estado de Tequila y su probabilidad de estar perdida")
 
 
@@ -26,7 +26,7 @@ with st.expander("Ver precisión del Oráculo"):
     st.dataframe(resultados['confusion_matrix'])
 
 st.subheader("Introduce el destino de Tequila")
-temperatura = st.slider("Temperatura: ", min_value=-10, max_value=40, value=10, step=1)
+temperatura = st.slider("Temperatura: ", min_value=-20, max_value=50, value=10, step=1)
 hora = st.slider("Hora del día: ", min_value=0, max_value=23, value=12, step=1)
 niebla = st.selectbox("¿Hay niebla?", options=["No", "Sí"])
 
